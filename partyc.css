@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(214,44,12,1) 24%, rgba(0,22,255,1) 100%);
+}
+
+.top-section {
+    max-width: 600px;
+    max-height: 300px;
+    margin: 0  auto;
+    padding: 6% 3%;
+}
+
+.top-grid {
+    margin: 20px 0 0 0;
+    padding: 0;
+    list-style: none;
+    display: block;
+    text-align: center;
+    width: 100%
+}
+
+.top-grid:after {
+    clear: both
+}
+
+.top-grid:after, top-box:before {
+content: "";
+display: table;
+align-items: center;
+}
+
+.top-grid li {
+    width: 328px;
+    height: 328px;
+    display: inline-block;
+    margin: 20px;
+}
+
+.top-box {
+    width: 350px;
+    height: 350px;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 50px;
+    margin: -400 350;
+    cursor: crosshair;
+    font-style: oblique;
+    border-radius: 10px;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out, -moz-transform 0.3s ease-in-out;
+}
+
+.img {
+    margin: auto -100;
+    border: darkblue dashed 1px;
+}
+.img:hover{
+opacity: 70%;
+color: blue;
+}
+
+a{
+    color: yellow;
+}
+a:hover {
+    color: lime;
+}
+
+.top-box:hover {
+    transform: scale(1.01)
+}
+
+.top-img-1{
+     background: url(g1.jpg); 
+     opacity: 90%;
+    color: white;
+}
+
+.top-info {
+    position: absolute;
+    width: inherit;
+    height: inherit;
+}
+
+.top-info h3 {
+    font-family: 'Roboto';
+    font-weight: 400;
+    color: #fff;
+    font-size: 42px;
+    margin: 0 30px;
+    padding: 100px 0 0 0;
+    line-height: 1.5;
+    align-content: center;
+}
+
+.top-info p {
+    color: #fff;
+    text-align: center;
+
+
+}
+
+h1 {
+    font-weight: 7000;
+    color:whitesmoke;
+    font-family: 'Secular One', sans-serif;
+}
+
+b {
+    color: orangered;
+}
+
+.ad {
+    font-size: small;
+}
